@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Create Profile</title>
+</head>
+
+<body>
+	<h1>Create Your Profile</h1>
+	<form action="/createProfile" method="post">
+		<fieldset>
+            
+			<label><strong>Name:</strong> <input type="text" name="name"/></label>
+			<label><strong>Age:</strong> <input type="number" name="age" ></label>
+            <br>
+            IF FAVORITE TEAM IS LAKERS,TYPE Los Angeles Lakers
+            <label><strong>Favorite NBA Team:</strong> <input type="text" name="favTeam"/></label>
+			<br>
+			<label><strong>About yourself:</strong> <br><textarea rows="5" cols="80" name="aboutSelf"></textarea></label>
+		</fieldset>
+
+		<br>
+		<input type="reset" >
+		<input type="submit" value="Create">
+	</form>
+	<a href="/">HOME</a>
+</body>
+</html>
